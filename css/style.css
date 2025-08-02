@@ -245,24 +245,24 @@ ol {
 /* connect Part Start  */
 #connectPart {
   padding: 120px;
-  margin-left: 25px;
 }
 .bannercard {
-  position: relative;
+  background: url(../iamges/SECTION\ CTA\ \(1\).png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* position: relative; */
+  padding: 150px 0;
 }
-.bantext {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-.bantext h4 {
+
+.bannercard h4 {
   font-size: 50px;
   font-weight: 600;
   color: #333;
   line-height: 72px;
   padding-bottom: 25px;
+  width: 780px;
+  margin: 0 auto;
 }
 /* connect Part End */
 

@@ -1,14 +1,116 @@
-/* Extra large devices  */
+/* Extra large devices */
+@media (min-width: 1200px) {
+  /* Header Part start  */
+  /* Header Part End */
 
+  /* Header Part start  */
+  /* Header Part End */
+
+  /* Header Part start  */
+  /* Header Part End */
+
+  /* Header Part start  */
+  /* Header Part End */
+}
 
 /* Large devices  */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* Header Part start  */
+  /* Header Part End */
 
-/* Medium devices */
+  /* Header Part start  */
+  /* Header Part End */
+
+  /* Header Part start  */
+  /* Header Part End */
+
+  /* Header Part start  */
+  /* Header Part End */
+}
+
+/* Medium devices  */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* Header Part start  */
+  .navbar-nav {
+    background: #5e3bee;
+    text-align: center;
+    border-radius: 10px;
+  }
+  .nav-link {
+    color: white;
+    font-weight: 700;
+  }
+  .mcb {
+    text-align: center;
+    margin-left: 50%;
+    transform: translateX(-50%);
+  }
+
+  /* Header Part End */
+
+  /* Banner Part start  */
+  .bannertext h1 {
+    font-size: 55px;
+    align-items: center;
+  }
+  .bbc {
+    margin-left: 80px;
+    margin-right: -50px;
+    margin-bottom: 20px;
+  }
+  /* Banner Part End */
+
+  /* counter achive Part start  */
+  .col-xs-5 {
+    width: 50%;
+    margin: 15px 0;
+  }
+  /* 
+  /* counter achive Part End */
+
+  /* Service Part start  */
+  .serviceiteam {
+    margin: 20px 0;
+  }
+  /* Service Part End */
+
+  /* testimonyitem Part start  */
+  .testimonyitem {
+    margin-top: 30px;
+  }
+
+  /* testimonyitem Part End */
+
+  /*   .bannercard  Part start  */
+  .bannercard {
+	background: url(../iamges/SECTION\ CTA\ \(1\).png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	/* position: relative; */
+	padding: 32px 0px;
+	margin: -78px;
+}
+.bannercard h4 {
+	font-size: 41px;
+	font-weight: 700;
+	color: #333;
+	line-height: 72px;
+	padding-bottom: 25px;
+  padding-right: 40px;
+  width: 700px;
+  margin: 0 auto;
+	/* padding-left: 160px; */
+}
+  /*   .bannercard  Part End */
+
+  /* Header Part start  */
+  /* Header Part End */
+}
 
 /* Small devices  */
 @media (min-width: 576px) and (max-width: 767.98px) {
-
- /* Header Part Start */
+  /* Header Part Start */
   .navbar-toggler i {
     color: #5e3bee;
     font-size: 30px;
@@ -38,82 +140,82 @@
     padding-top: 31px;
     padding-bottom: 37px;
   }
-  .bbc{
+  .bbc {
     margin-top: 5px;
     margin-bottom: 5px;
   }
-  .col-xs-6{
+  .col-xs-6 {
     width: 50%;
     margin: 15px 0;
   }
   /* Banner part end */
 
   /* service part start  */
- .servicetext p {
-  font-size: 16px;
-  font-weight: 500;
-  color: rgba(51, 51, 51, 0.468);
-  text-transform: capitalize;
-  line-height: 32px;
-  padding: 0 ;
-}
-.serviceiteam {
-	background: #ffffff;
-	border-radius: 24px;
-	padding: 65px;
-	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-	transition: 0.4s;
-	margin: 10px 0;
-}
+  .servicetext p {
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(51, 51, 51, 0.468);
+    text-transform: capitalize;
+    line-height: 32px;
+    padding: 0;
+  }
+  .serviceiteam {
+    background: #ffffff;
+    border-radius: 24px;
+    padding: 65px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: 0.4s;
+    margin: 10px 0;
+  }
   /* service part end */
 
   /* pic part start  */
   * {
-	margin: 0;
-	padding: 0;
-	outline: 0;
-	box-sizing: border-box;
-	font-family: "Poppins", sans-serif;
-	text-align: center;
-}
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+  }
   /* pic part end */
 
   /* testimonyitem part start  */
   .testimonyitem {
-	padding: 50px;
-	border-radius: 25px;
-	background: #ffffff;
-	filter: drop-shadow(0 5px 4px rgba(0, 0, 0, 0.2));
-	transition: 0.4s;
-	margin-top: 30px;
-}
+    padding: 50px;
+    border-radius: 25px;
+    background: #ffffff;
+    filter: drop-shadow(0 5px 4px rgba(0, 0, 0, 0.2));
+    transition: 0.4s;
+    margin-top: 30px;
+  }
   /* testimonyitem part end */
 
   /* footer part start  */
   #footerpart {
-	width: 95%;
-	text-align: center;
-	margin-top: 20px;
-  padding: 50px 20px 20px 20px;
-}
+    width: 95%;
+    text-align: center;
+    margin-top: 20px;
+    padding: 50px 20px 20px 20px;
+  }
 
-.footerPartLeft p {
-	width: 280px;
-	margin: 0 auto;
-	line-height: 25px;
-	font-size: 16px;
-	padding-bottom: 30px;
-}
-.footermenu ul li {
-	display: inline-block;
-	padding: 0 3px;
-  font-size: 10px;
-  font-weight: 400;
-  color: #ffffff;
-}
-.alllogo{
-  padding-top: 20px;
-}
+  .footerPartLeft p {
+    width: 280px;
+    margin: 0 auto;
+    line-height: 25px;
+    font-size: 16px;
+    padding-bottom: 30px;
+  }
+  .footermenu ul li {
+    display: inline-block;
+    padding: 0 3px;
+    font-size: 10px;
+    font-weight: 400;
+    color: #ffffff;
+  }
+  .alllogo {
+    padding-top: 20px;
+  }
   /* footer part end */
 
   /* Banner part start  */
@@ -130,7 +232,6 @@
 
   /* Banner part start  */
   /* Banner part end */
-
 }
 
 /* Extra small devices  */
@@ -165,93 +266,111 @@
     padding-top: 31px;
     padding-bottom: 37px;
   }
-  .bbc{
+  .bbc {
     margin-top: 5px;
     margin-bottom: 5px;
   }
-  .col-xs-6{
+  .col-xs-6 {
     width: 50%;
     margin: 15px 0;
   }
   /* Banner part end */
 
   /* service part start  */
- .servicetext p {
-  font-size: 16px;
-  font-weight: 500;
-  color: rgba(51, 51, 51, 0.468);
-  text-transform: capitalize;
-  line-height: 32px;
-  padding: 0 ;
-}
-.serviceiteam {
-	background: #ffffff;
-	border-radius: 24px;
-	padding: 65px;
-	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-	transition: 0.4s;
-	margin: 10px 0;
-}
-.resText p {
-	font-size: 16px;
-	font-weight: 400;
-	color: #333;
-	line-height: 32px;
-	padding-bottom: 30px;
-	width: 300px;
-}
+  .servicetext p {
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(51, 51, 51, 0.468);
+    text-transform: capitalize;
+    line-height: 32px;
+    padding: 0;
+  }
+  .serviceiteam {
+    background: #ffffff;
+    border-radius: 24px;
+    padding: 65px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: 0.4s;
+    margin: 10px 0;
+  }
+  .resText p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #333;
+    line-height: 32px;
+    padding-bottom: 30px;
+    width: 300px;
+  }
   /* service part end */
 
   /* pic part start  */
   * {
-	margin: 0;
-	padding: 0;
-	outline: 0;
-	box-sizing: border-box;
-	font-family: "Poppins", sans-serif;
-	text-align: center;
-}
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+  }
   /* pic part end */
 
   /* testimonyitem part start  */
   .testimonyitem {
-	padding: 50px;
-	border-radius: 25px;
-	background: #ffffff;
-	filter: drop-shadow(0 5px 4px rgba(0, 0, 0, 0.2));
-	transition: 0.4s;
-	margin-top: 30px;
-}
+    padding: 50px;
+    border-radius: 25px;
+    background: #ffffff;
+    filter: drop-shadow(0 5px 4px rgba(0, 0, 0, 0.2));
+    transition: 0.4s;
+    margin-top: 30px;
+  }
   /* testimonyitem part end */
 
   /* footer part start  */
   #footerpart {
-	width: 95%;
-	text-align: center;
-	margin-top: 20px;
-  padding: 50px 20px 20px 20px;
-}
+    width: 95%;
+    text-align: center;
+    margin-top: 20px;
+    padding: 50px 20px 20px 20px;
+  }
 
-.footerPartLeft p {
-	width: 280px;
-	margin: 0 auto;
-	line-height: 25px;
-	font-size: 16px;
-	padding-bottom: 30px;
-}
-.footermenu ul li {
-	display: inline-block;
-	padding: 0 3px;
-  font-size: 10px;
-  font-weight: 400;
-  color: #ffffff;
-}
-.alllogo{
-  padding-top: 20px;
-}
+  .footerPartLeft p {
+    width: 280px;
+    margin: 0 auto;
+    line-height: 25px;
+    font-size: 16px;
+    padding-bottom: 30px;
+  }
+  .footermenu ul li {
+    display: inline-block;
+    padding: 0 3px;
+    font-size: 10px;
+    font-weight: 400;
+    color: #ffffff;
+  }
+  .alllogo {
+    padding-top: 20px;
+  }
   /* footer part end */
 
   /* Banner part start  */
+    .bannercard {
+	background: url(../iamges/SECTION\ CTA\ \(1\).png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	/* position: relative; */
+	padding: 20px 0px;
+	margin: -108px;
+}
+.bannercard h4 {
+	font-size: 25px;
+	font-weight: 700;
+	color: #333;
+	line-height: 55px;
+	padding-bottom: 25px;
+  padding-right: 40px;
+  width: 350px;
+  margin: 0 auto;
   /* Banner part end */
 
   /* Banner part start  */
